@@ -85,3 +85,25 @@ h1 {
     border-radius: 5px;
     border: none;
 }
+
+.random-info {
+    text-align: center;
+    margin: 48px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-text {
+    width: 200px;
+    margin: 16px;
+}
+
+.food-img img {
+    border-radius: 50%;
+}
