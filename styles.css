@@ -14,7 +14,8 @@ html {
 
 body {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
-
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
 }
 
 .header {
@@ -44,10 +45,12 @@ nav {
     color: whitesmoke;
 }
 
-.hero img {
+.right-content img {
+    object-fit: cover;
     width: 400px;
-    height: auto;
+    height: 250px;
     padding: 28px;
+    border-radius: 35px;
 }
 
 .hero-text {
@@ -73,7 +76,7 @@ h1 {
 }
 
 .left-content {
-    margin: 25px;
+    margin: 15px;
 }
 
 .sign-up {
@@ -96,7 +99,8 @@ h1 {
 
 .images {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    padding-left: 24px;
 }
 
 .img-text {
