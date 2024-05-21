@@ -132,3 +132,31 @@ h1 {
 .author p {
     font-weight: bold;
 }
+
+.action {
+    padding: 100px;
+}
+
+.action-container {
+    background-color: #3882f6;
+    padding: 48px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    color: whitesmoke;
+    align-items: center;
+}
+
+.action .action-title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.action-container-button button {
+    padding: 6px 20px;   
+    border: 2px solid whitesmoke;
+    font-weight: bold;
+    background-color: #3882f6;
+    color: whitesmoke;
+    border-radius: 10px;
+}
