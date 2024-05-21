@@ -34,3 +34,21 @@ nav {
     text-decoration: none;
     color: whitesmoke;
 }
+
+.hero img {
+    width: 300px;
+    height: auto;
+    padding: 28px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 48px;
+}
