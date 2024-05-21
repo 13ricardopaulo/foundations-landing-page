@@ -111,3 +111,24 @@ h1 {
 .food-img img {
     border-radius: 50%;
 }
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 86px;
+    margin-top: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.author p {
+    font-weight: bold;
+}
