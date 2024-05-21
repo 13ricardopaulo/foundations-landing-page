@@ -10,9 +10,13 @@ body {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
-.hero {
+.header {
     background-color: #1f2937;
-    color: whitesmoke;
+    color: #e5e7eb;
+}
+
+.logo {
+    font-size: 18px;
 }
 
 nav {
