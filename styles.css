@@ -69,3 +69,13 @@ h1 {
 .left-content {
     margin: 25px;
 }
+
+.sign-up {
+    margin-top: 16px;
+    padding: 6px 20px;
+    background-color: #3882f6;
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
