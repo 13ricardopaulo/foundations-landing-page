@@ -16,6 +16,7 @@ body {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     border-left: 1px solid #333;
     border-right: 1px solid #333;
+    width: 1000px;
 }
 
 .header {
@@ -66,7 +67,8 @@ h1 {
 .hero {
     display: flex;
     justify-content: space-between;  
-    margin: 48px;  
+    margin: 48px;
+    padding-bottom: 82px;
 }
 
 .header nav {
@@ -101,10 +103,11 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     padding-left: 24px;
+    flex-wrap: wrap;
 }
 
 .img-text {
-    width: 200px;
+    width: 190px;
     margin: 16px;
 }
 
