@@ -6,13 +6,21 @@
     box-sizing: border-box;
 }
 
+html {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
 body {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
+
 }
 
 .header {
     background-color: #1f2937;
     color: #e5e7eb;
+    flex: 1;
 }
 
 .logo {
@@ -21,7 +29,7 @@ body {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .nav-bar {
@@ -36,7 +44,7 @@ nav {
 }
 
 .hero img {
-    width: 300px;
+    width: 400px;
     height: auto;
     padding: 28px;
 }
@@ -48,7 +56,16 @@ h1 {
 
 .hero {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 48px;
+    justify-content: space-between;  
+    margin: 48px;  
+}
+
+.header nav {
+    padding-top: 5px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.left-content {
+    margin: 25px;
 }
